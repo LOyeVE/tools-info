@@ -27,7 +27,7 @@ make build-ui
 make test
 ```
 #### 环境安装说明
-需要安装yarn,gcc,nodejs
+需要安装yarn,gcc,nodejs,esc
 ```
 
 ```
