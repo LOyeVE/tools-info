@@ -21,6 +21,7 @@ make: *** [build-binaries-linux] Error 2
 ### 解决思路
 ```
 git submodule update --init --recursive
+# 1.11.0版本用dep ensure,新版本已使用go mod
 dep ensure
 make install-tools
 make build-ui
